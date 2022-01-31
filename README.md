@@ -50,6 +50,7 @@ Dann kam mir die Idee eines Tasters den man in der Küche drückt und daraufhin 
 2. Fake Alarm Zähler ([Counter bei Helfern in HA](https://www.home-assistant.io/integrations/counter/)) erstellen
 3. [Wemos config](https://github.com/FelixLenz-Code/Essensklingel-HA/blob/main/Wemos%20config/Kueche%20Wemos.yaml) in ESPhome integrieren und flashen
 4. [Automatisierung zum Rücksetzen des Counters](https://github.com/FelixLenz-Code/Essensklingel-HA/blob/main/Automationen/Fake%20Alarm%20Counter%20taeglich%20zur%C3%BCcksetzen.yaml) importieren
+![Fake Alarm Counter](https://github.com/FelixLenz-Code/Essensklingel-HA/blob/main/Bilder/Fake%20Counter%20Einstellungen.PNG?raw=true)
 
 ## Fazit
 Hoffentlich sollte diese coole Automation bei euch laufen. Wenn nicht schreibt mich hier gerne an oder kommentiert unter dem dazugehörigen Video (Link/Video folgt noch)!
