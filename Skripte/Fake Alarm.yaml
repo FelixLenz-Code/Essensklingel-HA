@@ -1,0 +1,43 @@
+alias: Fake Alarm
+sequence:
+  - condition: numeric_state
+    entity_id: counter.fake_alarm_zahler
+    above: '-1'
+    below: '2'
+  - service: tts.cloud_say
+    data:
+      entity_id: #Google Home Minis
+      message: Fake Alarm!
+  - device_id: #Telefon ID
+    domain: mobile_app
+    type: notify
+    message: Fake Alarm!
+  - device_id: #Tablet ID
+    domain: mobile_app
+    type: notify
+    message: Fake Alarm!
+  - device_id: #Decken Lampe 1 ID
+    domain: light
+    entity_id: #Decken Lampe 1 
+    type: flash
+  - device_id: #Decken Lampe 2 ID
+    domain: light
+    entity_id: #Decken Lampe 2 
+    type: flash
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 1
+      milliseconds: 0
+  - device_id: #Decken Lampe 1 ID
+    domain: light
+    entity_id: #Decken Lampe 1
+    type: flash
+  - device_id: #Decken Lampe 2 ID
+    domain: light
+    entity_id: #Decken Lampe 2
+    type: flash
+  - service: counter.increment
+    target:
+      entity_id: counter.fake_alarm_zahler
+mode: single

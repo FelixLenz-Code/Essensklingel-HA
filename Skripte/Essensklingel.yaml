@@ -1,0 +1,37 @@
+sequence:
+    - service: tts.cloud_say
+      data:
+        entity_id: #Google Home Minis
+        message: Essen ist fertig!
+        cache: true
+    - device_id: #Telefon ID
+      domain: mobile_app
+      type: notify
+      message: Essen ist fertig!
+    - device_id: #Tablet ID
+      domain: mobile_app
+      type: notify
+      message: Essen ist fertig!
+    - device_id: #Decken Lampe 1 ID
+      domain: light
+      entity_id: #Decken Lampe 1 
+      type: flash
+    - device_id: #Decken Lampe 2 ID
+      domain: light
+      entity_id: #Decken Lampe 2 
+      type: flash
+    - delay:
+        hours: 0
+        minutes: 0
+        seconds: 1
+        milliseconds: 0
+    - device_id: #Decken Lampe 1 ID
+      domain: light
+      entity_id: #Decken Lampe 1 
+      type: flash
+    - device_id: #Decken Lampe 2 ID
+      domain: light
+      entity_id: #Decken Lampe 2 
+      type: flash
+  mode: single
+  alias: Essensklingel

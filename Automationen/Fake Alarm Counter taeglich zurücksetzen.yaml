@@ -1,0 +1,11 @@
+alias: Fake Alarm Counter zurücksetzen
+description: ''
+trigger:
+  - platform: time
+    at: '00:00'
+condition: []
+action:
+  - service: counter.reset
+    target:
+      entity_id: counter.fake_alarm_zahler #dieser counter muss erst unter Helfer in HA ertsellt werden (größe kann beliebig gewählt werden. Meiner ist zwei pro Tag)
+mode: single
