@@ -1,7 +1,8 @@
 # Essensklingel mit Home Assistant und ESPhome
 ## Was ist der Anlass?
 Mein Büro ist ein gutes Stück von der Küche und Wohnzimmer entfernt und durch mehrere Türen abgetrennt. Ist das Essen fertig oder man braucht meine Hilfe musste man vorher durch das ganze Haus schreien und selbst das ist nicht immer erfolgreich.
-Dann kam mir die Idee eines Tasters den man in der Küche drückt und daraufhin sich mein Smarthome bei mir bemerkbar macht. 
+Dann kam mir die Idee eines Tasters den man in der Küche drückt und daraufhin sich mein Smarthome bei mir bemerkbar macht. Der Fake Alarm ist für die Zeiten wo es kein Essen gibt, aber man trotzdem nach mir rufen würde. Dieser ist bei mir limitiert auf zweimal pro Tag!
+Ich habe am gleichen Microcontroller auch noch ein Helligkeitssensor und einen Bewegungssensor die zu der Beleuchtung der Küche gehören. Auf die gehe ich hier aber nicht weiter ein.
 ## Ablauf der Automation
 ### Essensklingel (Einmal drücken):
 1. Einmal Taster drücken
