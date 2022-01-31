@@ -43,7 +43,7 @@ Dann kam mir die Idee eines Tasters den man in der Küche drückt und daraufhin 
 1. Wemos D1 Mini mit Aufsteckmodul verbinden
 2. Wemos D1 Mini mit ESPhome Software flashen um später OTA zu nutzen
 3. Wemos D1 Mini in Case einbauen
-![enter image description here](https://github.com/FelixLenz-Code/Essensklingel-HA/blob/main/Bilder/Wemos%20in%20der%20Kueche.jpg?raw=true)
+![Wemos in Küche](https://github.com/FelixLenz-Code/Essensklingel-HA/blob/main/Bilder/Wemos%20in%20der%20Kueche.jpg?raw=true)
 
 ## Software vorbereiten (Entitys und Geräte Namen müssen eventuell geändert werden)
 1. [Skripte](https://github.com/FelixLenz-Code/Essensklingel-HA/tree/main/Skripte) in HA importieren (Essensklingel & Fake Alarm)
