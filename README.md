@@ -35,7 +35,7 @@ Ich habe am gleichen Microcontroller auch noch ein Helligkeitssensor und einen B
 ## Welche Technik wird verwendet?
 
 - Als Kopf/Server läuft bei mir Home Assistant OS
-- Der Taster hat einen Wemos D1 mini mit dem Button Modul und 3D gedrucktem Case von Thingiverse
+- Der Taster ist ein Wemos D1 mini mit dem Button Modul und 3D gedrucktem Case von Thingiverse
 - mit Home Assistant kompatible Lampen (bei mir Philips Hue)
 - Google Home Minis zur Sprachausgabe
 - Smartphone und Tablet für Benachrichtigung
