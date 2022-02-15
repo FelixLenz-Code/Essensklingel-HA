@@ -24,7 +24,7 @@ Ich habe am gleichen Microcontroller auch noch ein Helligkeitssensor und einen B
 - Smarte Lampen
 - Google Home (Mini) (s)
 - Basics im Umgang mit Home Assistant
-	- Automatiserungen
+	- Automatisierungen
 	- Skripte
 	- Helfer
 	- Integrationen
