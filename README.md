@@ -14,7 +14,7 @@ Ich habe am gleichen Microcontroller auch noch ein Helligkeitssensor und einen B
 6. Abfrage ob Counter < 2 wenn nicht Abbruch
 7. Lichter flashen
 8. Ansage "Fake Alarm" über Google Home Minis
-9. Smartphone und Tablet Benachrichtigung "Fake Alarm!)
+9. Smartphone und Tablet Benachrichtigung "Fake Alarm!
 10. Counter wird um eins erhöht
 
 ## Was wird vorausgesetzt?
