@@ -55,6 +55,6 @@ Ich habe am gleichen Microcontroller auch noch ein Helligkeitssensor und einen B
 
 
 ## Fazit
-Hoffentlich sollte diese coole Automation bei euch laufen. Wenn nicht schreibt mich hier gerne an oder kommentiert unter dem dazugehörigen [Video] (https://www.youtube.com/watch?v=4wjmTscdxns).
+Hoffentlich sollte diese coole Automation bei euch laufen. Wenn nicht schreibt mich hier gerne an oder kommentiert unter dem dazugehörigen Video (https://www.youtube.com/watch?v=4wjmTscdxns).
 
 LG Felix
